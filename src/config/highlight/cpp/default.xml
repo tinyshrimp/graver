@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- highlight style settings for cpp -->
+<settings>
+	<keywords>
+		asm auto bool break case catch char class const continue default delete do double dynamic_cast else enum explicit export extern false float for friend goto if inline int long mutable namespace new operator private protected public register reinterpret_cast return short signed sizeof static static_cast struct switch template this throw true try typedef typeid typename union unsigned using virtual void volatile wchar_t while
+	</keywords>
+	<styles>
+		<default font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <comment font='Monospace' size='8' fgcolor='#007f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+        <commentline font='Monospace' size='8' fgcolor='#007f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+        <commentdoc font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+        <number font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <string font='Monospace' size='8' fgcolor='#ff0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <character font='Monospace' size='8' fgcolor='#ff00ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <uuid font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <preprocessor font='Monospace' size='8' fgcolor='#007f00' bgcolor='#ffffff' bold='False' underline='False'/>
+        <operator font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <identifier font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <stringeol font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <verbatim font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <regex font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <commentlinedoc font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+        <word font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <word2 font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <commentdockeyword font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='True' underline='False'/>
+        <commentdockeyworderror font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='False' underline='True'/>
+        <globalclass font='Monospace' size='8' fgcolor='#007f00' bgcolor='#ffffff' bold='False' underline='False'/>
+	</styles>
+</settings>

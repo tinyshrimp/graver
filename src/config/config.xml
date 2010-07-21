@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<configurations>
+	<global>
+		<appearance>
+			<font name='Monospace' size='8' fgcolor='black' bgcolor='white' bold='False' underline='False'/>
+			<indent size='4' showIndentGuide='False' backspaceUnindents='True' tabindents='True' tabwidth='4' usetabs='False' viewwhitespace='False'/>
+			<marker style='square' fgcolor='white' bgcolor='#404040'/>
+			<eol showeol='False'/>
+			<edge maxcolumns='80' visible='False'/>
+			<caret color='black'/>
+			<highlight>
+				<python style="config/highlight/python/default.xml"/>
+				<cpp style="config/highlight/cpp/default.xml"/>
+				<xml style="config/highlight/xml/default.xml"/>
+			</highlight>
+		</appearance>
+		<editors>
+			<default name='DefaultEditor' package='org.graver.core.ui.editor' module='defaultEditor' class='DefaultEditor' pattern=''/>
+		</editors>
+		<encodings value='utf-8,shift-jis'/>
+		<actions name='DocumentActions' createToolbar='True'>
+			<menu path="File"/> <!-- menu path format is "menu1:menu2:menu3" -->
+			<action name='New' package='org.graver.core.documents' module='actions' class='NewFileAction' image='images/document-new.png' tip='New file'/>
+			<action name='Open' package='org.graver.core.documents' module='actions' class='OpenFileAction' image='images/document-open.png' tip='Open file'/>
+			<separator/>
+			<action name='Save' package='org.graver.core.documents' module='actions' class='SaveFileAction' image='images/document-save.png' tip='Save current file'/>
+			<action name='SaveAs' package='org.graver.core.documents' module='actions' class='SaveFileAsAction' image='images/document-save-as.png' tip='Save current file as'/>
+			<separator/>
+			<action name='Close' package='org.graver.core.documents' module='actions' class='CloseFileAction' image='images/document-close.png' tip='Close current file'/>
+			<action name='Close All' package='org.graver.core.documents' module='actions' class='CloseAllFileAction' image='images/document-close-all.png' tip='Close current file'/>
+		</actions>
+		<actions name='ApplicationActions' createToolbar='False'>
+			<menu path='File'/>
+			<action name='Quit' package='org.graver.core.ui' module='actions' class='MainFrameCloseAction' image='images/application-exit.png' tip=''/>
+		</actions>
+		<actions name='EditActions' createToolbar='True'>
+			<menu path='Edit'/>
+			<action name='Undo' package='org.graver.core.ui.editor' module='actions' class='UndoAction' image='' tip=''/>
+			<action name='Redo' package='org.graver.core.ui.editor' module='actions' class='RedoAction' image='' tip=''/>
+			<separator/>
+			<action name='Cut' package='org.graver.core.ui.editor' module='actions' class='CutAction' image='images/edit-cut.png' tip=''/>
+			<action name='Copy' package='org.graver.core.ui.editor' module='actions' class='CopyAction' image='images/edit-copy.png' tip=''/>
+			<action name='Paste' package='org.graver.core.ui.editor' module='actions' class='PasteAction' image='images/edit-paste.png' tip=''/>
+			<action name='Delete' package='org.graver.core.ui.editor' module='actions' class='DeleteAction' image='images/edit-delete.png' tip=''/>
+		</actions>
+		<actions name='ViewActions' createToolbar='False'>
+			<menu path='View'/>
+			<action name='Toolbar Settings' package='org.graver.core.ui.toolbar' module='actions' class='ConfigAction' image='' tip=''/>
+		</actions>
+		<actions name='HelpActions' createToolbar='False'>
+			<menu path='Help'/>
+			<action name='About' package='org.graver.core.ui' module='actions' class='AboutAction' image='' tip=''/>
+		</actions>
+		<actions name='PreferencesActions' createToolbar='False'>
+			<menu path='Edit'/>
+			<action name='Preferences' package='org.graver.configuration' module='actions' class='PreferencesAction' image='' tip=''/>
+		</actions>
+	</global>
+</configurations>

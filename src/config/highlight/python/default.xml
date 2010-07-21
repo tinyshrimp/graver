@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- highlight style settings for python -->
+<settings>
+	<keywords>
+		and as assert break class continue def del elif else except exec finally for from global if import in is lambda not or pass print raise return try while with yield
+	</keywords>
+	<styles>
+		<default font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+		<commentline font='Monospace' size='8' fgcolor='#007f00' bgcolor='#ffffff' bold='False' underline='False'/>
+		<number font='Monospace' size='8' fgcolor='#007f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+		<string font='Monospace' size='8' fgcolor='#7f007f' bgcolor='#ffffff' bold='False' underline='False'/>
+		<character font='Monospace' size='8' fgcolor='#7f007f' bgcolor='#ffffff' bold='False' underline='False'/>
+		<word font='Monospace' size='8' fgcolor='#00007f' bgcolor='#ffffff' bold='True' underline='False'/>
+		<triple font='Monospace' size='8' fgcolor='#7f0000' bgcolor='#ffffff' bold='False' underline='False'/>
+		<tripledouble font='Monospace' size='8' fgcolor='#7f0000' bgcolor='#ffffff' bold='False' underline='False'/>
+		<classname font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='True' underline='False'/>
+		<defname font='Monospace' size='8' fgcolor='#007f7f' bgcolor='#ffffff' bold='True' underline='False'/>
+		<operator font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+		<identifier font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+		<commentblock font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+		<stringeol font='Monospace' size='8' fgcolor='#000000' bgcolor='#e0c0e0' bold='False' underline='False'/>
+	</styles>
+</settings>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- highlight style settings for xml -->
+<settings>
+	<keywords>
+	</keywords>
+	<styles>
+		<default font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <tag font='Monospace' size='8' fgcolor='#7f0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <tagunknown font='Monospace' size='8' fgcolor='#7f0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <attribute font='Monospace' size='8' fgcolor='#ff0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <attributeunknown font='Monospace' size='8' fgcolor='#ff0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <number font='Monospace' size='8' fgcolor='#00ff00' bgcolor='#ffffff' bold='False' underline='False'/>
+        <doublestring font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <singlestring font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <other font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <comment font='Monospace' size='8' fgcolor='#7f7f7f' bgcolor='#ffffff' bold='False' underline='False'/>
+        <entity font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <tagend font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <xmlstart font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <xmlend font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <script font='Monospace' size='8' fgcolor='#ff0000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <asp font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <aspat font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <cdata font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <question font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <value font='Monospace' size='8' fgcolor='#0000ff' bgcolor='#ffffff' bold='False' underline='False'/>
+        <xccomment font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmldefault font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlcommand font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgml1stparam font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmldoublestring font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlsimplestring font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlerror font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlspecial font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlentity font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlcomment font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgml1stparamcomment font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+        <sgmlblockdefault font='Monospace' size='8' fgcolor='#000000' bgcolor='#ffffff' bold='False' underline='False'/>
+	</styles>
+</settings>
+ 
